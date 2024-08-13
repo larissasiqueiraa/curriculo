@@ -1,0 +1,152 @@
+@font-face{
+    font-family: "HankenGrotesk";
+    src:
+      local("HankenGrotesk"),
+      url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf) format("truetype") 
+  }
+
+.attribution { font-size: 16px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'HankenGrotesk', Times, serif;
+}
+
+.card-result{
+    background-image: linear-gradient(to bottom, #6541FD, #502cee );
+    border-radius: 25px;
+    text-align: center;
+    width: 270px;
+    height: 370px;
+    margin-top: 108px;
+}
+
+.card-result1{
+    color: rgb(205, 205, 205);
+    padding-bottom: 20px;
+    margin: 35px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card-result2{
+   font-weight: bold;
+    font-size: 50px;
+    color: white;
+    padding-top: 25px;
+    
+}
+
+.card-result3{
+    font-size: 16px;
+    color: rgb(205, 205, 205);
+    padding-bottom: 30px;
+    
+
+}
+
+.card-result4{
+    font-size: 20px;
+    color: white;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.card-result5{
+    color: rgb(205, 205, 205);
+    padding-bottom: 20px;
+    font-size: 13px;
+}
+
+.card-summary{
+    background-color: #ffffff;
+    border-radius: 25px;
+    box-shadow: 6px 6px 6px #E8EEFC;
+    height: 370px;
+    font-family:'HankenGrotesk', Times, serif;
+    margin-top: 108px;
+}
+
+#summary{
+    margin-top: 30px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.card-summary-info ul{
+    list-style-type: none;
+}
+
+.card-summary-info ul button{
+    text-align: justify;
+}
+
+#reaction{
+    color: #F0615B;
+    background-color: #FFF6F5;
+}
+
+#memory{
+    color: #ffec3e;
+    background-color: #FFFBF2;
+}
+
+#verbal{
+    color:#34AB8D;
+    background-color: #F2FBFA;
+}
+
+#visual{
+    color:#2930A2;
+    background-color: #F3F3FD;
+}
+
+li{
+    border-radius: 7px;
+    width: 250px;
+    height: 20px;
+    padding: 10px;
+    font-weight: bold;
+    margin: 10px;
+     
+}
+
+.button{
+    border-radius: 18px;
+    width: 83%;
+    height: 40px;
+    background-image: linear-gradient(to bottom, #6541FD, #502cee );
+    color: white;
+    border-style: none;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.button:hover{
+    background-color: #303B59;
+    background-image: none;
+}
+
+.num{
+    margin-left: 102px;
+}
+
+.num1{
+    color: #333A4D;
+}
+
+.num2{
+    color: #ADACB2
+}
+
+.circulo{
+    background-image: linear-gradient(to bottom, #502cee, #6541FD );
+    border-radius: 70%;
+    height: 145px;
+    width: 145px;
+    margin-left: 65px;
+}

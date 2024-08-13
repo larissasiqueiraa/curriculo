@@ -1,0 +1,93 @@
+    *{
+    margin: 0;
+    padding: 0;
+   }
+
+   @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+   @font-face {
+        font-family: 'idroid';
+        src: url('idroid.otf') format("opentype");
+    }
+
+   :root{
+    --cor0: #c5ebd6;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque:"Bebas Neue", sans-serif;
+    --fonte-android:'Idroid';
+   }
+
+   body{
+    font-family: var(--fonte-padrao);
+    background-color: #ebe5c5;
+   }
+
+   main{
+    background-color: white;
+    width: 75%;
+    margin-left: 186px;
+    box-shadow: 0px 0px 23px 7px rgba(0, 0, 0, 0.3);
+    padding: 19px;
+    line-height: 30px;
+    min-width: 300px;
+    max-width: 1000px;
+   }
+
+   .titulo h1{
+    font-family: var(--fonte-destaque);
+   } 
+
+    h2, h3{
+        font-family: idroid;
+    }
+
+    .topo {
+        background: linear-gradient(182deg, #3ddc84, #063d1e);
+        height: 300px;
+        color: white;
+        margin-bottom: 25px;
+    }
+
+    .nav{
+        margin-top: 101px;
+    }
+
+    .nav a{
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+    }
+
+    .nav a:hover{
+        color: darkgreen;
+        background-color: rgb(168 255 168 / 67%);    
+        border-radius: 3px;
+        padding: 10px;
+    }
+
+    .titulo{
+        padding-top:65px;
+    }
+
+    .background-verde{
+        background-color:var(--cor2);
+    }
+
+    p{
+        margin-bottom: 20px;
+    }
+
+    p:first-line{
+        margin-left:200px;
+    }
+
+    main img{
+        width:100%
+    }

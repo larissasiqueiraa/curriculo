@@ -1,0 +1,151 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.topo{
+    margin: 75px;
+}
+
+.head .pata {
+    width: 30px;
+    height: 29px;
+    padding-top: 16px;
+    padding-right: 10px;
+}
+
+.head {
+    display: flex;
+    background-image: url(img/banner-topo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+}
+
+container {
+    background: rgb(255 255 255 / 77%);
+    height: 298px;
+    margin-top: 375px;
+    margin-left: -101px;
+    border-radius: 8px;
+    text-align: center;
+    width: 926px;
+    box-shadow: 2px 2px 37px 4px rgba(0, 0, 0, 0.3);
+}
+
+container h1 {
+    margin-top: 62px;
+    color: #3C184E;
+    font-size: 50px;
+    margin-bottom: 26px;
+}
+
+container button {
+    border-radius: 9px;
+    background-color: #3C184E;
+    color: white;
+    font-size: 17px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 33px;
+}
+
+container img{
+    width: 19px;
+}
+
+.servicos{
+    text-align: center;
+}
+
+.servicos h2 {
+    color: #3C184E;
+    font-size: 33px;
+    margin-top: 75px;
+}
+
+
+.servicos li {
+    color: #3C184E;
+    font-size: 20px;
+    margin-bottom: 23px;
+}
+
+.img-servicos{
+    margin-bottom: 100px;
+}
+
+.img-servicos img {
+    border-radius: 5px;
+    box-shadow: -15px 2px 60px 11px rgba(0, 0, 0, 0.4);
+}
+
+.faixa {
+    background-color: #3C184E;
+    color: white;
+    height: 342px;
+}
+
+.faixa p {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 93px;
+    margin-top: 10px;
+}
+
+.redes-socais {
+    padding-left: 622px;
+    padding-top: 44px;
+}
+
+.redes-socais img {
+    width: 40px;
+    margin-left: 31px;
+}
+
+.marcas h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #3C184E;
+    margin-top: 75px;
+}
+
+.img-marcas {
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.mapa h2{
+    text-align: center;
+    font-size: 30px;
+    color: #3C184E;
+    margin-top: 75px;
+}
+
+.mapa p {
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 51px;
+}
+
+.mapa iframe{
+    width: 60%;
+    margin-left: 312px;
+}
+
+.rodape {
+    text-align: center;
+    background-color: #3C184E;
+    color: white;
+    margin-top: 50px;
+    padding-top: 41px;
+}
+
+.rodape p{
+    height: 79px;
+}
