@@ -1,0 +1,262 @@
+/* Efeitos Globais */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color:#604829;
+    width: 100%;
+    z-index: 1;
+}
+
+header img {
+    width: 100px;
+    position: relative;
+    left: 15%;
+}
+
+nav {
+    position: absolute;
+    top: 6%;
+    right: 5%;
+}
+
+nav a {
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    text-shadow: 3px 5px 2px #000000;
+    letter-spacing: 2px;
+    color: #c4a47c;
+}
+
+
+.banner{
+    background-image: url(arquivos-do-projeto/download-arquivos-do-projeto/assets/parallax-imagem1.png);
+    padding-top: 400px;
+    padding-bottom: 500px;
+    background-size: cover;
+}
+
+.banner h1 {
+    font-size: 90px;
+    font-family: "Fraunces";
+    color: white;
+    text-align: center;
+    font-weight: 100;
+}
+
+.container1{
+    text-align: center;
+}
+
+.container1 h2 {
+    padding-bottom: 16px;
+    margin-top: 68px;
+    color: #c4a47c;
+    font-family: "Oswald";
+    font-size: 18px;
+}
+
+.container1 p {
+    font-family: "Lato";
+    font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 68px;
+}
+
+.banner2 {
+    background-image: url(arquivos-do-projeto/download-arquivos-do-projeto/assets/parallax-imagem2.jpg);
+    height: 50vh;
+    background-size: cover;
+}
+
+.banner2 h3{
+    width: 500px;
+    padding: 10px;
+
+    position: relative;
+    top: 45%;
+    right: 0;
+    left: 0;
+    margin: auto;
+
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Fraunces", sans-serif;
+    text-align: center;
+
+    letter-spacing: 2px;
+    background-color: #604829;
+    color: #fff;
+}
+
+.banner3{
+    background-image: url(arquivos-do-projeto/download-arquivos-do-projeto/assets/parallax-imagem3.jpg);
+    height: 50vh;
+    background-size: cover;
+}
+
+.banner3 h3{
+    width: 500px;
+    padding: 10px;
+
+    position: relative;
+    top: 45%;
+    right: 0;
+    left: 0;
+    margin: auto;
+
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Fraunces", sans-serif;
+    text-align: center;
+
+    letter-spacing: 2px;
+    background-color: #604829;
+    color: #fff;
+}
+
+.contatos {
+    background-image: url(arquivos-do-projeto/download-arquivos-do-projeto/assets/parallax-imagem4.png);
+    padding-bottom: 291px;
+}
+
+.contatos2 {
+    text-align: center;
+    padding-top: 97px;
+}
+
+.contatos h2 {
+    font-family: "Oswald";
+    font-size: 24px;
+    color: white;
+    background-color: #604829;
+    position: relative;
+    left: 32%;
+    width: 70vh;
+    height: 6vh;
+    padding-bottom: 0px;
+}
+.contatos iframe{
+    padding-top: 60px;
+}
+
+
+.box {
+    padding: 28px;
+    background-color: #604829;
+    left: 33%;
+    position: absolute;
+    margin-top: 110px;
+}
+
+.box p {
+    margin-right: 20px;
+    font-size: 16px;
+    margin-left: 20px;
+    font-family: "Oswald", sans-serif;
+    text-decoration: none;
+    text-shadow: 2px 2px 6px #000000;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.container-parallax5 {
+    height: 85vh;
+    background-image: url("arquivos-do-projeto/download-arquivos-do-projeto/assets/cafeteria.jpg");
+    background-size: cover;
+}
+
+.container-parallax5 h2 {
+    margin: 0 auto;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    letter-spacing: 8px;
+    color: white;
+    padding-top: 222px;
+}
+
+.lista-horarios {
+    padding-top: 63px;
+    max-width: 768px;
+    margin: 0 auto;
+    bottom: -33%;
+    right: 0;
+    left: 0;
+    font-family: "Oswald", sans-serif;
+    list-style: none;
+}
+.lista-horarios li { /* tag <li> */
+    position: relative;
+}
+
+.lista-horarios li h3 { /* subtitulo = <h3> */
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.lista-horarios li div { /* tarja = <div> */
+    width: 70%;
+    height: 1px;
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    right: 0;
+    left: 0;
+    background-color: #ACACAC
+}
+
+.lista-horarios li p,
+.texto-marrom { /* paragrafo + span*/
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+}
+
+.texto-marrom {
+    color: #c4a47c;
+}
+
+.lista-horarios li p {
+    color: #ACACAC;
+}
+
+/* Rodapé */
+.container-rodape {
+    position: relative;
+    padding: 20px 0;
+    line-height: 34px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+}
+
+.container-rodape span {
+    color: #c4a47c;
+}
+
+.container-rodape a {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 80px;
+    right: 50px;
+
+    background-image: url("./img/seta-para-cima.png");
+    background-position: center;
+    background-size: cover;
+    background-color: #c4a47c;
+    border-radius: 4px;
+}
